@@ -36,7 +36,6 @@ bot.on('message', async (msg) => {
       console.log(error)
     }
   }
-  console.log(msg.text)
   return await bot.sendMessage(chatId, msg.text);
   
 });
